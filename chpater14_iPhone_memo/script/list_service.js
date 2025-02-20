@@ -1,6 +1,6 @@
 function loadList() {
-  let boardDatas = !!localStorage.getItem("boardDatas") 
-  ? JSON.parse(localStorage.getItem("boardDatas")) 
+  let boardDatas = !!localStorage.getItem("boardDatas")
+  ? JSON.parse(localStorage.getItem("boardDatas"))
   : [];
 
   const boardList = document.querySelector('board-list-container');
